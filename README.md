@@ -74,7 +74,7 @@ pip3 install -r requirements.txt
 ### Run the Script
 
 ```bash
-python3 loxs.py
+python3 loxs.py --xss  -u "https://site.com/page?id=" -p payload/xss.txt -a auth.txt
 ```
 <!-- to update the tool to the latest version
 ```bash
